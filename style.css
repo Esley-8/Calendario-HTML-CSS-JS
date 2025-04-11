@@ -1,0 +1,42 @@
+body {
+     font-family: 'Courier New', Courier, monospace;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+   }
+  
+  h1 {
+      font-size: 28px;
+  }
+  
+  h2 {
+     font-size: 36px;
+     margin: 20px 0;
+     color: #4242f5;
+    }
+  
+  .calendario {
+     width: 80%;
+     margin: auto;
+    }
+  
+  .dias-semana,
+  .dias-mes {
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     gap: 10px;
+    }
+  
+  .dias-semana div {
+     font-weight: bold;
+     background-color: #222222;
+     padding: 10px;
+     border-radius: 5px;
+    }
+  
+  .dias-mes div {
+     padding: 10px;
+     background-color: #333;
+     border-radius: 5px;
+    }
